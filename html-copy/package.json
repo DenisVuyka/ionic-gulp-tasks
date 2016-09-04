@@ -5,6 +5,16 @@
   "main": "index.js",
   "author": "Denys Vuika <denys.vuika@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DenisVuyka/ionic-gulp-tasks.git"
+  },
+  "keywords": [
+    "angular",
+    "ionic",
+    "gulp",
+    "typescript"
+  ],
   "dependencies": {
     "gulp": "^3.9.1"
   }

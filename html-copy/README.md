@@ -1,6 +1,10 @@
 # HTML Copy Task
 Copy HTML sources to build directory.
 
+## Installing
+
+`npm install @denysvuika/ionic-gulp-html-copy --save-dev`
+
 ## API
 
 ### copyHTML([options])
@@ -16,7 +20,7 @@ that can be [piped](http://nodejs.org/api/stream.html#stream_readable_pipe_desti
 
 ## Example
 
-```
+```js
 const copyHTML = require('@denysvuika/ionic-gulp-html-copy');
 
 // use defaults
