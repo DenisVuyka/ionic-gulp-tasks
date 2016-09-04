@@ -1,3 +1,5 @@
+const gulp = require('gulp');
+
 module.exports = function(options) {
   options.src = options.src || 'app/**/*.html';
   options.dest = options.dest || 'www/build';
@@ -5,4 +7,4 @@ module.exports = function(options) {
 
   return gulp.src(options.src, { base: options.base })
     .pipe(gulp.dest(options.dest));
-}
+};
