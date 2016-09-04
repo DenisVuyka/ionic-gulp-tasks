@@ -16,7 +16,7 @@ that can be [piped](http://nodejs.org/api/stream.html#stream_readable_pipe_desti
 
 - **src** (String|Array) Glob or array of globs ([What's a glob?](https://github.com/isaacs/node-glob#glob-primer)) matching HTML source files. Default: `'app/**/*.html'`.
 - **dest** (String) Output path for the HTML files. Default: `'www/build'`.
-- **base** (String) Base path. Default: `.`
+- **base** (String) Base path. Default: `'.'`
 
 ## Example
 
