@@ -1,0 +1,11 @@
+{
+  "name": "@denysvuika/ionic-gulp-html-copy",
+  "version": "0.1.0",
+  "description": "Gulp task for Ionic projects to copy HTML sources to a build directory",
+  "main": "index.js",
+  "author": "Denys Vuika <denys.vuika@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
